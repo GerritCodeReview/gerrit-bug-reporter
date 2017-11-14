@@ -1,3 +1,5 @@
+const REGEX = /https:\/\/(.+)-review(.+)?\.googlesource\.com/g;
+
 function GerritBugReport(currentTab) {
   this.image = '';
   this.url = currentTab;
@@ -62,9 +64,11 @@ GerritBugReport.prototype._handleSubmit = function() {
 document.addEventListener('DOMContentLoaded', function() {
   chrome.tabs.query({currentWindow: true, active: true}, function(tabs){
     const currentTab = tabs[0].url;
-    if (!currentTab.startsWith('https://gerrit-review.googlesource.com')) {
+
+    if (!currentTab.match(REGEX)) {
       return;
     }
+
     document.getElementById('error').classList.add('hidden');
     document.getElementById('gerritBugReport').classList.remove('hidden');
     const button = document.getElementById('screenshotBtn');
