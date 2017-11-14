@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c5ecdda1_4b58015f",
+        "filename": "popup.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-14T17:57:37Z",
+      "side": 1,
+      "message": "it gets set as a base 64 encoded image later on.",
+      "parentUuid": "f55205e3_fc71741f",
+      "range": {
+        "startLine": 25,
+        "startChar": 2,
+        "endLine": 25,
+        "endChar": 18
+      },
+      "revId": "73bb97d5d33a24499d2106cf627b2d1ef51481a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "251afc0a_8ad3c992",
         "filename": "popup.js",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-11-14T17:22:17Z",
       "side": 1,
       "message": "Nit: quotes are not needed.",
+      "range": {
+        "startLine": 55,
+        "startChar": 26,
+        "endLine": 55,
+        "endChar": 31
+      },
+      "revId": "73bb97d5d33a24499d2106cf627b2d1ef51481a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "155feabe_ce201006",
+        "filename": "popup.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-14T17:57:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "251afc0a_8ad3c992",
       "range": {
         "startLine": 55,
         "startChar": 26,
@@ -138,6 +186,54 @@
       "revId": "73bb97d5d33a24499d2106cf627b2d1ef51481a7",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94fbd58b_46ca8f1c",
+        "filename": "popup.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-14T17:57:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40701571_932b80ac",
+      "range": {
+        "startLine": 66,
+        "startChar": 36,
+        "endLine": 66,
+        "endChar": 37
+      },
+      "revId": "73bb97d5d33a24499d2106cf627b2d1ef51481a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f6fb5078_314044cb",
+        "filename": "popup.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-14T17:57:37Z",
+      "side": 1,
+      "message": "Ah it\u0027s not used, It was something I didn\u0027t end up using. Changing to a simple return.",
+      "parentUuid": "0ce8f7f5_68be50c8",
+      "range": {
+        "startLine": 66,
+        "startChar": 13,
+        "endLine": 66,
+        "endChar": 20
+      },
+      "revId": "73bb97d5d33a24499d2106cf627b2d1ef51481a7",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
