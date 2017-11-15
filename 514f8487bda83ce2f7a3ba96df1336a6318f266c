@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da96f8cf_2dae759c",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1026519
+      },
+      "writtenOn": "2017-11-15T00:01:51Z",
+      "side": 1,
+      "message": "What\u0027s the ..\n\n (.+)?\n\n.. for? Why not ..\n\n .*\n\n.. ?\n\nConsider using an anchor at the start ..\n\n /^https:\\/\\/(.+)-review(.+)?\\.googlesource\\.com/\n\n.. otherwise ..\n\n http://evil.com/https://x-review.googlesource.com\n\n.. would match.\n\nAlso consider restricting the first (.+), since it permits anything, I expect ..\n\n https://x-review.evil.com/.googlesource.com/\n\n.. would match.",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 61
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1a99a32e_4211addd",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1026519
+      },
+      "writtenOn": "2017-11-15T00:01:51Z",
+      "side": 1,
+      "message": "You might consider a more descriptive name.",
+      "range": {
+        "startLine": 1,
+        "startChar": 6,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
