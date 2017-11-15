@@ -93,6 +93,78 @@
       "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecc3b27a_b7c24626",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-15T00:12:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a2bb9cf_42cde3ef",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 61
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a3a6d18a_93d264fb",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-15T00:12:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a99a32e_4211addd",
+      "range": {
+        "startLine": 1,
+        "startChar": 6,
+        "endLine": 1,
+        "endChar": 11
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8f25b0c3_05896c54",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-11-15T00:12:57Z",
+      "side": 1,
+      "message": "(.+) Matches between 1-unlimited times, vs (.*) 0-unlimited times. I would have been better off uses (.+) for the first match and (.*) for the second one, but I agree can do this better..",
+      "parentUuid": "beea53c7_ec83de89",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 61
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
