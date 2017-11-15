@@ -69,6 +69,30 @@
       "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2a2bb9cf_42cde3ef",
+        "filename": "popup.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1026519
+      },
+      "writtenOn": "2017-11-15T00:07:26Z",
+      "side": 1,
+      "message": "Yep. There is also at least one host that uses digits. Maybe something like ..\n\n [-A-Za-z0-9]\n\nLikely better to err on the restrictive side. In the worst case the extension won\u0027t enable on a some host.",
+      "parentUuid": "beea53c7_ec83de89",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 61
+      },
+      "revId": "514f8487bda83ce2f7a3ba96df1336a6318f266c",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
     }
   ]
 }
