@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b70aded_f4f32a91",
+        "filename": "popup.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1014502
+      },
+      "writtenOn": "2017-11-21T00:32:38Z",
+      "side": 1,
+      "message": "What\u0027s this second group for? Are there hosts called things like foo-review-funtimes.googlesource.com?",
+      "range": {
+        "startLine": 2,
+        "startChar": 38,
+        "endLine": 2,
+        "endChar": 53
+      },
+      "revId": "3b987713b15b5c4553613e13e0db1149b6369548",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b5b0a5f9_43e92c1a",
+        "filename": "popup.js",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1014502
+      },
+      "writtenOn": "2017-11-21T00:32:38Z",
+      "side": 1,
+      "message": "It would be good to check for the *absence* of \u0027-internal-review\u0027 and \u0027-googleplex-review\u0027, since hosts whose names end with \u0027-internal\u0027 or \u0027-googleplex\u0027 are assumed to be internal by the GoB backend by default, and probably don\u0027t want to post those screenshots to imgur.\n\nA super extra bonus feature would be to take advantage of the fact that your capturing the hostname here, so you can extract it and put it in the popup as \"Disabled because foo-review is assumed to be internal.\"",
+      "range": {
+        "startLine": 2,
+        "startChar": 16,
+        "endLine": 2,
+        "endChar": 31
+      },
+      "revId": "3b987713b15b5c4553613e13e0db1149b6369548",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
