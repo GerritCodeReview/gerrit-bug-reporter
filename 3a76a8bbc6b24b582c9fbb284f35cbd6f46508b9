@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e67617a8_ab6ae742",
+        "filename": "popup.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1026519
+      },
+      "writtenOn": "2017-12-01T21:37:53Z",
+      "side": 1,
+      "message": "You might consider inserting a ..\n\n \\/\n\n.. here to insist that the entire domain is matched. Otherwise I could have ..\n\n https://x-review.googlesource.com.evil.com/\n\n.. but, it doesn\u0027t seem to me to be very serious.",
+      "range": {
+        "startLine": 2,
+        "startChar": 83,
+        "endLine": 2,
+        "endChar": 86
+      },
+      "revId": "3a76a8bbc6b24b582c9fbb284f35cbd6f46508b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": true
+    }
+  ]
+}
