@@ -22,6 +22,30 @@
       "revId": "3a76a8bbc6b24b582c9fbb284f35cbd6f46508b9",
       "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "806c5c4c_15ad98a6",
+        "filename": "popup.js",
+        "patchSetId": 5
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1030207
+      },
+      "writtenOn": "2017-12-02T00:44:26Z",
+      "side": 1,
+      "message": "I think I need a $? \\/ didn\u0027t seem to be valid.",
+      "parentUuid": "e67617a8_ab6ae742",
+      "range": {
+        "startLine": 2,
+        "startChar": 83,
+        "endLine": 2,
+        "endChar": 86
+      },
+      "revId": "3a76a8bbc6b24b582c9fbb284f35cbd6f46508b9",
+      "serverId": "173816e5-2b9a-37c3-8a2e-48639d4f1153",
+      "unresolved": false
     }
   ]
 }
