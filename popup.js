@@ -39,7 +39,7 @@ GerritBugReport.prototype._handleSubmit = function() {
   if (!this.image) {
     url = this._computeQueryString(url, queryParams);
     this._reset();
-    return chrome.tabs.create({url: url}, function(tab){ alert(tab.id) });
+    return chrome.tabs.create({url: url}, function(tab){ return; });
   }
 
   // Post image to imgur
@@ -55,7 +55,7 @@ GerritBugReport.prototype._handleSubmit = function() {
       queryParams.description = description;
       url = this._computeQueryString(url, queryParams);
       this._reset();
-      chrome.tabs.create({'url': url}, function(tab){ alert(tab.id) })
+      chrome.tabs.create({'url': url}, function(tab){ return; })
     }
   }.bind(this)
   xhr.setRequestHeader('Authorization', 'Client-ID 2c8d8a8a1a0d4cb')
